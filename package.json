@@ -17,6 +17,6 @@
     "npm": "1.1.x"
   },
   "scripts": {
-    "test": "coffee test/index.coffee"
+    "test": "node_modules/.bin/mocha test/index.coffee"
   }
 }
